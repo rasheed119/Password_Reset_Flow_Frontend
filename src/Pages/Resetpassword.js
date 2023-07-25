@@ -96,16 +96,6 @@ function Resetpassword() {
             noValidate
             sx={{ mt: 1 }}
           >
-            <TextField
-              margin="normal"
-              fullWidth
-              label="Email Address"
-              name="email"
-              disabled
-              onChange={handleChange}
-              onBlur={handleBlur}
-              value={values.email}
-            />
 
             {touched.newpassword && errors.newpassword ? (
               <TextField
@@ -159,17 +149,6 @@ function Resetpassword() {
                 type="password"
               />
             )}
-            <TextField
-              margin="normal"
-              fullWidth
-              name="token"
-              label="Token"
-              disabled
-              onChange={handleChange}
-              value={values.token}
-              onBlur={handleBlur}
-              type="text"
-            />
             {show ? (
               <Button
                 type="submit"

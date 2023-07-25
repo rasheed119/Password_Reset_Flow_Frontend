@@ -1,1 +1,1 @@
-export const api = "https://password-reset-flow-theta.vercel.app"
+export const api = "https://password-reset-flow-h7cn.onrender.com"

@@ -49,8 +49,8 @@ function ForgotPassword() {
             user_data
           );
           alert(data.data.message);
+          navigate("/")
           console.log(data)
-          navigate(`/resendmail/${user_data.email}`)
         } catch (error) {
           setshow(true);
           console.log(error.response.data.message);

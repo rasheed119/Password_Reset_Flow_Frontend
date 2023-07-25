@@ -5,7 +5,6 @@ import Resetpassword from "./Pages/Resetpassword";
 import Forgotpassword from "./Pages/Forgotpassword";
 import Register from "./Pages/Register";
 import PageNotFound from "./Pages/PageNotFound";
-import ResendMail from "./Pages/ResendMail";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/register" element={<Register/>} />
         <Route path="/resetpassword" element={<Resetpassword/>} />
         <Route path="/notfound" element={<PageNotFound/>} />
-        <Route path="/resendmail/:email" element={<ResendMail/>} />
       </Routes>
     </div>
   );
