@@ -15,7 +15,7 @@ function App() {
         <Route path="/forgotpassword" element={<Forgotpassword/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="/resetpassword" element={<Resetpassword/>} />
-        <Route path="/notfound" element={<PageNotFound/>} />
+        <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </div>
   );
